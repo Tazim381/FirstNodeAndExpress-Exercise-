@@ -1,9 +1,14 @@
 import express from "express";
+import sayHi from "./modules.js";
 const port = 5000;
 const server = express();
 
 server.listen(port, () => {
   //console.log($(port));
+});
+
+server.get("/sayHi", (req, res) => {
+  res.send(sayHi("Tisha"));
 });
 server.get("/name", (req, res) => {
   res.send("Seaum Ahmed Tazim ");
