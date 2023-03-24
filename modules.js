@@ -1,3 +1,3 @@
-const sayHi = (name) => `Hi ${name}`;
+const sayHi = (name) => (`Hi ${name}`);
 
 export default sayHi;
