@@ -1,0 +1,4 @@
+Es module is used for export import 
+to use ES module you should goto the package.json file and below the  main option write " "type": "module" "
+
+thats all
