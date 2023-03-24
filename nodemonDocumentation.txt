@@ -1,0 +1,17 @@
+How to install nodemon?
+step 1 
+Goto https://www.npmjs.com/package/nodemon this website
+step 2.( install nodemon) 
+write this command to install nodemon "npm install --save-dev nodemon"
+step 3.
+goto package.json and see into devDependencies nodemon is added 
+
+step 4.
+to run nodemon you should write a  nodemon script  into the scripts file of package.json 
+you write " "dev": "nodemon server.js" " script .
+
+step 5.(Run)
+to run nodemon you should write "npm run dev"
+
+step 6.
+then see successfully run nodemon
